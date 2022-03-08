@@ -51,10 +51,10 @@ console.log("\n");
  * Q6.
  * How did Leeds get on there? Better remove it.
  */
-
-// console.log(stations);
-
-
+// stations.splice(stations.indexOf("Leeds"), 1);
+stations.splice(4, 1);
+console.log(stations);
+console.log("\n");
 
 /**
  * Q7.
