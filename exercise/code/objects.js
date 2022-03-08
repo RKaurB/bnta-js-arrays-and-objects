@@ -62,16 +62,16 @@ parrot = {
     breed: "African Grey"
 };
 console.log(parrot);
-console.log(parrot.name + " is a " + parrot.age + "-year-old " + parrot.breed);
+console.log(parrot.name + " is a " + parrot.age + "-year-old " + parrot.breed + " parrot");
 console.log("\n");
 
 /**
  * Q6. Ella's favourite food is dandelion, add this information to her object
  */
-
-// console.log(tortoise);
-
-
+tortoise.favouriteFood = "dandelion";
+console.log(tortoise);
+console.log(tortoise.name + " the tortoise's favourite food is " + tortoise.favouriteFood);
+console.log("\n");
 
 /**
  * Q7. What's the combined age of all the pets?
