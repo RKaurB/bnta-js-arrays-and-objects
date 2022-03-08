@@ -65,3 +65,12 @@ console.log("\n");
 /**
  * Q4. Use an if statement to compare the population of Scotland to the other countries and print out if it is the biggest, smallest or somewhere in the middle.
  */
+scotland = unitedKingdom[0];
+if (scotland.population < england.population && scotland.population < wales.population && scotland.population < northernIreland.population) {
+    console.log("Scotland has the smallest population");
+} else if (scotland.population > england.population && scotland.population > wales.population && scotland.population > northernIreland.population) {
+    console.log("Scotland has the largest population");
+} else {
+    console.log("Scotland's population falls somewhere between");
+}
+console.log("\n");
