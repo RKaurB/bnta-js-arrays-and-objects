@@ -31,22 +31,19 @@ dogName = dog.name;
 console.log("The dog's name is " + dogName);
 console.log("\n");
 
-
 /**
  * Q2. What breed is the cat?
  */
-
-catName = null;
-
-// console.log("The cat is a " + catBreed);
-
-
+catBreed = cat.breed;
+console.log("The cat is a " + catBreed);
+console.log("\n");
 
 /**
  * Q3. It's the tortoise's birthday! Add one to her current age.
  */
-
-// console.log(tortoise)
+tortoise.age += 1;
+console.log(tortoise)
+console.log(tortoise.name + ", the tortoise, is now " + tortoise.age + " years old");
 
 
 
