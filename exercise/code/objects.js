@@ -76,12 +76,9 @@ console.log("\n");
 /**
  * Q7. What's the combined age of all the pets?
  */
-
-totalPetAge = null;
-
-// console.log("The total age of the pets is " + totalPetAge);
-
-
+totalPetAge = dog.age + cat.age + tortoise.age + parrot.age;
+console.log("The total age of the pets is " + totalPetAge);
+console.log("\n");
 
 /**
  * Q8. It's turns out that Morris isn't a European Shorthair. We don't actually know his real breed, so remove that key from his object
