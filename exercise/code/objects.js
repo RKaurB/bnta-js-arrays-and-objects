@@ -44,23 +44,18 @@ console.log("\n");
 tortoise.age += 1;
 console.log(tortoise)
 console.log(tortoise.name + ", the tortoise, is now " + tortoise.age + " years old");
-
-
+console.log("\n");
 
 /**
  * Q4. How many different colours is Poppy?
  */
-
-dogColourCount = null;
-
-// console.log("The dog has " + dogColourCount + " different colours");
-
-
+dogColourCount = dog.colours.length;
+console.log(dog.name + ", the dog, has " + dogColourCount + " different colours");
+console.log("\n");
 
 /**
  * Q5. I've just bought a 12-year-old African Grey parrot called Lucky. Create an object for her.
  */
-
 parrot = null;
 
 // console.log(parrot);
