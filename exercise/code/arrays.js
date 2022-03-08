@@ -26,9 +26,9 @@ console.log("\n");
  * How many stations are on the line?
  */
 
-stationCount = null;
-
-// console.log("There are " + stationCount + " stations.");
+// stationCount = null;
+stationCount = stations.length;
+console.log("There are " + stationCount + " stations.");
 
 /**
  * Q4.
