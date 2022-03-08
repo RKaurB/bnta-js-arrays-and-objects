@@ -57,12 +57,10 @@ console.log("\n");
 /**
  * Q3. Find a method in the documentation which will give you all of the available keys for Northern Ireland
  */
-
-northernIrelandKeys = null;
-
-// console.log("northernIrelandKeys");
-
-
+northernIreland = unitedKingdom[3];
+northernIrelandKeys = Object.keys(northernIreland);
+console.log(northernIrelandKeys);
+console.log("\n");
 
 /**
  * Q4. Use an if statement to compare the population of Scotland to the other countries and print out if it is the biggest, smallest or somewhere in the middle.
