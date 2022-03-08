@@ -60,10 +60,9 @@ console.log("\n");
  * Q7.
  * We forgot about Darlington! Add it to the route between Newcastle and York.
  */
-
-// console.log(stations);
-
-
+// stations.splice(stations.indexOf("York"), 0, "Darlington");
+stations.splice(3, 0, "Darlington");
+console.log(stations);
 
 /**
  * Q8.
