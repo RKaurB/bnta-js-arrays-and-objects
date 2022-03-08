@@ -63,16 +63,20 @@ console.log("\n");
 // stations.splice(stations.indexOf("York"), 0, "Darlington");
 stations.splice(3, 0, "Darlington");
 console.log(stations);
+console.log("\n");
 
 /**
  * Q8.
  * Is Durham one of the stops?
  */
-
-stoppingAtDurham = null;
-
+stoppingAtDurham = stations.includes("Durham");
 // console.log(stoppingAtDurham);
-
+if (stoppingAtDurham) {
+    console.log("This train stops at Durham");
+} else {
+    console.log("This train does not stop at Durham");
+}
+console.log("\n");
 
 /**
  * Q9.
