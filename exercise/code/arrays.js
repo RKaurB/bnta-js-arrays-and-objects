@@ -82,3 +82,4 @@ console.log("\n");
  * Q9.
  * If we are stopping at Durham, print "Yay Durham!" to the terminal. If not print "Aww...".
  */
+// See Q8.
