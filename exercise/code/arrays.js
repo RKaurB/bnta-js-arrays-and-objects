@@ -11,17 +11,15 @@ stations = ["Dundee", "Edinburgh", "North Berwick", "Newcastle", "York", "Leeds"
 stations.push("London Kings Cross");
 console.log(stations);
 console.log("End of line: " + stations[stations.length-1]);
-
-
+console.log("\n");
 
 /**
  * Q2.
  * It doesn't go as far as Dundee either, so remove it from the start of the array.
  */
-
-// console.log(stations);
-
-
+stations.shift();
+console.log(stations);
+console.log("\n");
 
 /**
  * Q3.
@@ -32,8 +30,6 @@ stationCount = null;
 
 // console.log("There are " + stationCount + " stations.");
 
-
-
 /**
  * Q4.
  * Which station is the third stop?
@@ -42,8 +38,6 @@ stationCount = null;
 thirdStation = null;
 
 // console.log("The third station is " + thirdStation);
-
-
 
 /**
  * Q5.
