@@ -43,10 +43,9 @@ console.log("\n");
  * Q5.
  * Someone put the wrong Berwick on the timetable! Update "North Berwick" to "Berwick-upon-Tweed".
  */
-
-// console.log(stations);
-
-
+stations[1] = "Berwick-upon-Tweed";
+console.log(stations);
+console.log("\n");
 
 /**
  * Q6.
